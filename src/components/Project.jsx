@@ -1,41 +1,42 @@
 import brainwave from "../images/projects/brainwave.jpg";
+import netflixGpt from "../images/projects/netflix-gpt.png";
+import swiggy from "../images/projects/swiggy.png";
 const projectData = [
   {
     id: 1,
     category: "Web Apps",
-    title: "Trackify",
+    title: "Mordern UI",
     description:
-      "Trackify is a web application designed to streamline task management and enhance productivity.",
-    technologies: [
-      "Docker",
-      "AWS",
-      "DynamoDB",
-      "Firebase",
-      "Ruby",
-      "Node.js",
-      "MongoDB",
-    ],
+      "Tansformed a beautiful UI/UX design into Modern Website, focusing on stylish UI design, mobile-first principles, along with sleek parallax effects, ",
+    technologies: ["React", "Javascript", "Tailwind"],
     image: brainwave,
   },
   {
     id: 2,
     category: "Web Apps",
-    title: "Podstream",
+    title: "Swiggy Clone",
     description:
-      "Developed a full-stack web application that allows users to search for, play, and pause their favorite podcasts.",
-    technologies: ["React.js", "MongoDB", "Node.js"],
+      "Developed a responsive Swiggy Clone using ReactJS, integrating Swiggy's API to fetch real-time data. The app features advanced search functionality, filters, detailed menus, ratings, and personalized restaurant recommendations based on location.",
+    technologies: ["React.js", "Redux", "Rest API", "Tailwind"],
 
-    image: brainwave,
+    image: swiggy,
   },
   {
     id: 3,
-    category: "Android Apps",
-    title: "Vexa",
+    category: "Web Apps",
+    title: "Netflix GPT",
     description:
-      "Designed and developed the Vexa project, a project management app that helps users and teams stay organized.",
-    technologies: ["React.js", "Node.js", "MongoDB"],
+      "Developed the Netflix clone with movie suggestion app, app offers seamless movie browsing and recommendations. Key features include user authentication, profile updates, and a sleek UI. Integrated with The Movie Database (TMDB) API for real-time movie data and Gemini for advanced GPT-powered search.",
+    technologies: [
+      "React.js",
+      "Redux",
+      "Firebase",
+      "Authentication",
+      "Gemini GPT",
+      "Tailwind",
+    ],
 
-    image: brainwave,
+    image: netflixGpt,
   },
 ];
 
